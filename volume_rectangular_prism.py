@@ -19,9 +19,15 @@ def main():
     while True:
         try:
             # input
-            height_as_float = float(input("Enter the height of the cylinder(mm): "))
-            width_as_float = float(input("Enter the width of the cylinder(mm): "))
-            length_as_float = float(input("Enter the length of the cylinder(mm): "))
+            height_as_float = float(
+                input("Enter the height of the rectangular prism(mm): ")
+            )
+            width_as_float = float(
+                input("Enter the width of the rectangular prism(mm): ")
+            )
+            length_as_float = float(
+                input("Enter the length of the rectangular prism(mm): ")
+            )
             # call functions
             calculated_volume = volume_of_cylinder(
                 height_as_float, width_as_float, length_as_float
